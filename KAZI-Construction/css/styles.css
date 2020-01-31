@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Open Sans
+    ----------------------------------------
+    Colors:
+        Moon Yellow:         #f4c613
+        Grey:                #212226
+        White Smoke:         #f4f4f4
+        Very light gray:     #d9d9d9
+        Very dark gray:      #1f1f1f 
+============================================ */
+
+/* =========================================
+                Html, Body
+============================================ */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #212226;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+section {
+  background: #fff;
+  overflow: hidden;
+}
+/* =========================================
+                Html, Body
+============================================ */
+
+/* =========================================
+                Content Boxes
+============================================ */
+.content-box-lg {
+  padding: 120px 0;
+}
+
+.content-box-md {
+  padding: 100px 0;
+}
+
+.content-box-sm {
+  padding: 90px 0;
+}
+/* =========================================
+                Content Boxes
+============================================ */
+
+/* =========================================
+                Preloader
+============================================ */
+/* =========================================
+                Preloader
+============================================ */
+
+/* =========================================
+                Banner-Section
+============================================ */
+#banner-section {
+  height: 84vh;
+  width: 100vw;
+  background-color: #1f1f1f;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* =========================================
+                Banner-Section
+============================================ */
+
+/* =========================================
+            View-Projects-Section
+============================================ */
+#view-projects {
+  text-transform: uppercase;
+  padding: 55px 0;
+  background: #f4c613;
+}
+#view-projects a {
+  float: right;
+  display: block;
+  line-height: 35px;
+  padding: 0 22px;
+  border: 2px solid #1f1f1f;
+  color: #1f1f1f;
+  border-radius: 3px;
+  transition: all 300ms ease-in-out 0s;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+#view-projects h4 {
+  color: #1f1f1f;
+  float: left;
+  line-height: 39px;
+  margin: 0;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+@media (max-width: 769px) {
+  #view-projects {
+    padding: 20px 0;
+    text-align: center;
+  }
+  #view-projects a {
+    float: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  #view-projects h4 {
+    float: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+/* =========================================
+            View-Projects-Section
+============================================ */
+
+/* =========================================
+            View-Projects-Section
+============================================ */
+#home-about-section {
+  background-color: #f4f4f4;
+  width: 100vw;
+}
+#home-about-section .heading-title-h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+#home-about-section .heading-paragraph-p {
+  font-size: 18px;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #212226;
+  line-height: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+#home-about-section p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #212226;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+#home-about-section .btn {
+  margin-top: 10px;
+  background-color: #f4c613;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  word-spacing: 2px;
+}
+#home-about-section .btn:hover {
+  background-color: #dbb310;
+}
+#home-about-section .about-img {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  margin-top: 30px;
+  min-width: 84%;
+  max-width: 80%;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background: #f4c613;
+}
+#home-about-section .about-img *,
+#home-about-section .about-img:before,
+#home-about-section .about-img:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#home-about-section .about-img img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+#home-about-section .about-img:before,
+#home-about-section .about-img:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: "";
+  background-color: #ffffff;
+  z-index: 1;
+  opacity: 0;
+}
+#home-about-section .about-img:before {
+  width: 0;
+  height: 1px;
+}
+#home-about-section .about-img:after {
+  height: 0;
+  width: 1px;
+}
+#home-about-section .about-img figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+#home-about-section .about-img h3,
+#home-about-section .about-img h4 {
+  margin: 0;
+  font-weight: normal;
+  opacity: 0;
+  font-family: "Poppins", sans-serif;
+}
+#home-about-section .about-img h4 {
+  text-transform: uppercase;
+}
+#home-about-section .about-img a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#home-about-section .about-img:hover img,
+#home-about-section .about-img.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+#home-about-section .about-img:hover:before,
+#home-about-section .about-img.hover:before,
+#home-about-section .about-img:hover:after,
+#home-about-section .about-img.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+#home-about-section .about-img:hover:before,
+#home-about-section .about-img.hover:before {
+  width: 40px;
+}
+#home-about-section .about-img:hover:after,
+#home-about-section .about-img.hover:after {
+  height: 40px;
+}
+#home-about-section .about-img:hover h3,
+#home-about-section .about-img.hover h3,
+#home-about-section .about-img:hover h4,
+#home-about-section .about-img.hover h4 {
+  opacity: 1;
+}
+#home-about-section.about-img:hover h3,
+#home-about-section .about-img.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+#home-about-section .about-img:hover h4,
+#home-about-section.about-img.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+/* =========================================
+            View-Projects-Section
+============================================ */
