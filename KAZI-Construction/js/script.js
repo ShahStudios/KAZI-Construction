@@ -93,10 +93,10 @@ $.fn.jQuerySimpleCounter = function(options) {
     }
   );
 };
-$("#number1").jQuerySimpleCounter({ end: 12, duration: 3000 });
-$("#number2").jQuerySimpleCounter({ end: 55, duration: 3000 });
-$("#number3").jQuerySimpleCounter({ end: 359, duration: 2000 });
-$("#number4").jQuerySimpleCounter({ end: 246, duration: 2500 });
+$("#number1").jQuerySimpleCounter({ end: 12, duration: 4100 });
+$("#number2").jQuerySimpleCounter({ end: 55, duration: 4300 });
+$("#number3").jQuerySimpleCounter({ end: 359, duration: 4500 });
+$("#number4").jQuerySimpleCounter({ end: 246, duration: 4700 });
 /* =========================================
                 Tab-Section
 ============================================ */
@@ -111,7 +111,7 @@ $(document).ready(function() {
     // declare variable
     var topPos = $(this).scrollTop();
     // if user scrolls down - show scroll to top button
-    if (topPos > 500) {
+    if (topPos > 900) {
       $(scrollTop).css("opacity", "1");
     } else {
       $(scrollTop).css("opacity", "0");
@@ -130,4 +130,29 @@ $(document).ready(function() {
 });
 /* =========================================
                 Go-To-Top
+============================================ */
+
+
+/* =========================================
+              Start: Navigation
+============================================ */
+// Smooth Scrolling
+$(function() {
+  $("a.smooth-scroll").click(function(event) {
+    event.preventDefault();
+
+    // get section id like #about, #servcies, #work, #team and etc.
+    var section_id = $(this).attr("href");
+
+    $("html, body").animate(
+      {
+        scrollTop: $(section_id).offset().top - 64
+      },
+      1500,
+      "easeInOutExpo"
+    );
+  });
+});
+/* =========================================
+              End:Navigation
 ============================================ */

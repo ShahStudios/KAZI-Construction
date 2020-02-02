@@ -31,34 +31,72 @@
   <link rel="stylesheet" href="/css/responsive.css" />
 </head>
 
-<!-- start: banner-section -->
-<section id="banner-section">
-  <div class="content-box-md">
-
-  </div>
+<!-- start: home section -->
+<section id="home">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <div class="container topnav">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand topnav" href="#home">KAZI Construction</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- background video -->
+  <video id="home-bg-video" poster="videos/poster-img.png" autoplay loop muted>
+    <source src="/img/home-video/video.mp4" type="video/mp4" />
+  </video>
+  <!-- bg video overlay-->
+  <div id="home-overlay"></div>
+  <!-- home content -->
+  <div id="home-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="caption text-center">
+            <span class="title text-uppercase">welcome to</span>
+            <h1>KAZI Construction</h1>
+            <p>With the best engineers and architects, we commit ourselves to magical and magnificent works that can<br
+                class="hidden-xs hidden-sm hidden-md"> and exceed your expectations. Let's say this is a promise.</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="home-buttons text-center">
+            <a href="#home-about-section" class="button-1 btn btn-primary btn-default">READ MORE</a>
+          </div>
+        </div>
 </section>
-<!-- end: banner-section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- end: home section -->
 
 <!-- start: view-projects-section -->
 <section id="view-projects" class="row">
   <div class="container">
     <div class="row col-md-12 col-sm-12 col-xs-12 text-center">
       <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-      <a href="project2col.html">View Projects</a>
+      <a href="#">View Projects</a>
     </div>
   </div>
 </section>
@@ -346,22 +384,22 @@
 <div id="projectFacts" class="sectionClass">
   <div class="fullWidth eight columns">
     <div class="projectFactsWrap ">
-      <div class="item wow fadeInLeftBig animated animated" data-number="12" style="visibility: visible;">
+      <div class="item animated" data-number="12" style="visibility: visible;">
         <i class="fa fa-briefcase"></i>
         <p id="number1" class="number">12</p>
         <p>Projects done</p>
       </div>
-      <div class="item wow fadeInLeftBig animated animated" data-number="55" style="visibility: visible;">
+      <div class="item animated" data-number="55" style="visibility: visible;">
         <i class="fa fa-smile-o"></i>
         <p id="number2" class="number">55</p>
         <p>Happy clients</p>
       </div>
-      <div class="item wow fadeInLeftBig animated animated" data-number="359" style="visibility: visible;">
+      <div class="item animated" data-number="359" style="visibility: visible;">
         <i class="fa fa-coffee"></i>
         <p id="number3" class="number">359</p>
         <p>Cups of coffee</p>
       </div>
-      <div class="item wow fadeInLeftBig animated animated" data-number="246" style="visibility: visible;">
+      <div class="item animated" data-number="246" style="visibility: visible;">
         <i class="fa fa-camera"></i>
         <p id="number4" class="number">246</p>
         <p>Photos taken</p>
