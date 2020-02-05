@@ -91,7 +91,7 @@ section {
   width: auto;
   height: auto;
   z-index: -1;
-  background: url(/img/home-video/video-dont-start.png) no-repeat;
+  background: url(img/home-video/video-dont-start.png) no-repeat;
   background-size: cover;
 }
 #home-overlay {
@@ -218,7 +218,7 @@ section {
       rgba(195, 158, 15, 0.9),
       rgba(195, 158, 15, 0.9)
     ),
-    /* bottom, image */ url(/img/banner-img/banner-2.jpg);
+    /* bottom, image */ url(img/banner-img/banner-2.jpg);
 }
 #view-projects a {
   float: right;
