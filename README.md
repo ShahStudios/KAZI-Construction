@@ -5,4 +5,4 @@ Web application built for small construction companies.
 * fill in after completion 
 
 # View Project
-https://shahstudios.github.io/KAZI-Estate-Agency/
+https://shahstudios.github.io/KAZI-Construction/
